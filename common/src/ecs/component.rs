@@ -1,2 +1,5 @@
-pub trait Component: 'static {}
-impl<T: 'static> Component for T {}
+mod velocity;
+mod position;
+mod rotation;
+mod health;
+mod bounding_box;
